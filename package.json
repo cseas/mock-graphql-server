@@ -1,0 +1,23 @@
+{
+  "name": "mock-graphql-server",
+  "version": "1.0.0",
+  "description": "Mock GraohQL Server for local development without a backend.",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-graphql-server mock.json --p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cseas/mock-graphql-server.git"
+  },
+  "author": "Abhijeet Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cseas/mock-graphql-server/issues"
+  },
+  "homepage": "https://github.com/cseas/mock-graphql-server#readme",
+  "dependencies": {
+    "json-graphql-server": "^2.3.2"
+  }
+}
